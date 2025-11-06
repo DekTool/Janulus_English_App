@@ -28,18 +28,31 @@ Un método visual, dinámico y efectivo para mejorar tu gramática y fluidez.
 
 janulus-app/
 ├── public/
+
 │ ├── index.html
+
 │ └── favicon.ico
+
 ├── src/
+
 │ ├── App.js
+
 │ ├── App.css
+
 │ ├── MatrixCard.js
+
 │ ├── matrices.js
+
 │ ├── PhraseGenerator.js
+
 │ └── index.js
+
 ├── package.json
+
 ├── .gitignore
+
 └── README.md
+
 ---
 
 ## ⚙️ Instalación y uso
