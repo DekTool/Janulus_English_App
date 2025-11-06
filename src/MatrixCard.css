@@ -1,0 +1,90 @@
+/* === MATRICES Y TABLAS === */
+.matrix-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  overflow-x: auto;
+}
+
+.matrix-card table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.matrix-card td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  overflow: visible !important;
+}
+
+/* === TOOLTIP AJUSTADO Y CENTRADO === */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-word {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.tooltip-word:hover {
+  color: #007bff;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  transition: opacity 0.3s, transform 0.3s;
+  white-space: nowrap;
+}
+
+.tooltip-wrapper:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-text.top {
+  bottom: 125%;
+}
+
+.tooltip-text.top::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #007bff transparent transparent transparent;
+}
+
+.tooltip-text.bottom {
+  top: 125%;
+}
+
+.tooltip-text.bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #007bff transparent;
+}

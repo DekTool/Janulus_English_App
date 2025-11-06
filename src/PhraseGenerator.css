@@ -1,0 +1,61 @@
+/* src/PhraseGenerator.css */
+.phrase-generator {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 12px auto;
+  box-shadow: 0 6px 12px rgba(7, 55, 99, 0.04);
+  max-width: 720px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.btn-generate {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-toggle {
+  background: #e6f0fb;
+  color: #074778;
+  border: 1px solid #cfe6fb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-generate:hover {
+  background: #005fa3;
+}
+
+.generated-block {
+  margin-top: 8px;
+}
+
+.generated-en {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0b2545;
+}
+
+.generated-es {
+  margin-top: 6px;
+  font-size: 1rem;
+  color: #055a9a;
+  font-weight: 600;
+}
+
+.small-note {
+  color: #6b7d93;
+}
