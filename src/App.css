@@ -86,3 +86,23 @@
 .matrix-card td {
   overflow: visible !important; /* 👈 permite que el tooltip se vea */
 }
+/* === FOOTER === */
+.app-footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fafafa;
+}
+
+.app-footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
