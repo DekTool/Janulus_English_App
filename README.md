@@ -20,7 +20,7 @@ Un método visual, dinámico y efectivo para mejorar tu gramática y fluidez.
 
 - ⚛️ **React** (Create React App)
 - 💅 **CSS moderno** con tooltips dinámicos
-- 🌍 https://Janulus_English_App.vercel.app
+- 🌍 [https://Janulus_English_App.vercel.app](https://janulus-english.vercel.app/)
 
 ---
 
