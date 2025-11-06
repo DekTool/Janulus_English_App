@@ -27,6 +27,18 @@ function App() {
 
       <MatrixCard matrix={matrices[selectedMatrix]} />
       <PhraseGenerator matrix={matrices[selectedMatrix]} />
+
+      {/* === Pie === */}
+      <footer className="app-footer">
+        © {new Date().getFullYear()} Todos los derechos reservados —{" "}
+        <a
+          href="https://github.com/DekTool"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DekTool
+        </a>
+      </footer>
     </div>
   );
 }
