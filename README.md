@@ -1,4 +1,4 @@
-# Janulus Inglés
+# Método Janulus para Inglés
 
 **Janulus Inglés** es una aplicación interactiva para aprender inglés mediante **28 matrices progresivas**.  
 Cada matriz te ayuda a **construir oraciones paso a paso**, mostrando la **traducción instantánea** de cada palabra al pasar el cursor.  
